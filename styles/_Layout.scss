@@ -6,7 +6,6 @@ body {
     padding: 0;
     margin: 0;
     height: 100%;
-    width: 100vw;
     letter-spacing: 1px;
 
 }
@@ -40,7 +39,6 @@ input {
 
 @media (max-width: 916px) {
     body {
-        width: 100vw;
         text-align: center;
     }
     .content {
