@@ -64,6 +64,10 @@ input:active, input:focus {
     display: block;
   }
 }
+* {
+  color: #2B2734;
+}
+
 h1 {
   letter-spacing: 4px;
   font-size: 64px;
@@ -149,73 +153,73 @@ p {
 }
 
 @font-face {
-  font-family: "F37 Ginger";
-  src: url("./font/F37Ginger-Bold.eot");
+  font-family: "F37 Ginger Bold";
+  src: url("./styles/font/F37Ginger-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-Bold.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-Bold.woff") format("woff"), url("./font/F37Ginger-Bold.woff2") format("woff2"), url("./font/F37Ginger-Bold.ttf") format("truetype"), url("./font/F37Ginger-Bold.svg#7db0a735880422cc5fa2f936a390d651") format("svg");
+  src: url("./styles/font/F37Ginger-Bold.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-Bold.woff") format("woff"), url("./styles/font/F37Ginger-Bold.woff2") format("woff2"), url("./styles/font/F37Ginger-Bold.ttf") format("truetype"), url("./styles/font/F37Ginger-Bold.svg#7db0a735880422cc5fa2f936a390d651") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
-  font-family: "F37 Ginger";
-  src: url("./font/F37Ginger-BoldItalic.eot");
+  font-family: "F37 Ginger BoldItalic";
+  src: url("./styles/font/F37Ginger-BoldItalic.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-BoldItalic.woff") format("woff"), url("./font/F37Ginger-BoldItalic.woff2") format("woff2"), url("./font/F37Ginger-BoldItalic.ttf") format("truetype"), url("./font/F37Ginger-BoldItalic.svg#bb8d7a6ec0d5deda275935ab00ad83ba") format("svg");
+  src: url("./styles/font/F37Ginger-BoldItalic.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-BoldItalic.woff") format("woff"), url("./styles/font/F37Ginger-BoldItalic.woff2") format("woff2"), url("./styles/font/F37Ginger-BoldItalic.ttf") format("truetype"), url("./styles/font/F37Ginger-BoldItalic.svg#bb8d7a6ec0d5deda275935ab00ad83ba") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 700;
 }
 @font-face {
-  font-family: "F37 Ginger";
-  src: url("./font/F37Ginger-Italic.eot");
+  font-family: "F37 Ginger Italic";
+  src: url("./styles/font/F37Ginger-Italic.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-Italic.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-Italic.woff") format("woff"), url("./font/F37Ginger-Italic.woff2") format("woff2"), url("./font/F37Ginger-Italic.ttf") format("truetype"), url("./font/F37Ginger-Italic.svg#630483153372c6803c45567348abcad0") format("svg");
+  src: url("./styles/font/F37Ginger-Italic.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-Italic.woff") format("woff"), url("./styles/font/F37Ginger-Italic.woff2") format("woff2"), url("./styles/font/F37Ginger-Italic.ttf") format("truetype"), url("./styles/font/F37Ginger-Italic.svg#630483153372c6803c45567348abcad0") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "F37 Ginger Light";
-  src: url("./font/F37Ginger-Light.eot");
+  src: url("./styles/font/F37Ginger-Light.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-Light.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-Light.woff") format("woff"), url("./font/F37Ginger-Light.woff2") format("woff2"), url("./font/F37Ginger-Light.ttf") format("truetype"), url("./font/F37Ginger-Light.svg#4a1efc7fd28af5705abda90f380987ed") format("svg");
+  src: url("./styles/font/F37Ginger-Light.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-Light.woff") format("woff"), url("./styles/font/F37Ginger-Light.woff2") format("woff2"), url("./styles/font/F37Ginger-Light.ttf") format("truetype"), url("./styles/font/F37Ginger-Light.svg#4a1efc7fd28af5705abda90f380987ed") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200;
 }
 @font-face {
-  font-family: "F37 Ginger Light";
-  src: url("./font/F37Ginger-LightItalic.eot");
+  font-family: "F37 Ginger LightItalic";
+  src: url("./styles/font/F37Ginger-LightItalic.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-LightItalic.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-LightItalic.woff") format("woff"), url("./font/F37Ginger-LightItalic.woff2") format("woff2"), url("./font/F37Ginger-LightItalic.ttf") format("truetype"), url("./font/F37Ginger-LightItalic.svg#1c7eff18379a490689d240dabfae793f") format("svg");
+  src: url("./styles/font/F37Ginger-LightItalic.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-LightItalic.woff") format("woff"), url("./styles/font/F37Ginger-LightItalic.woff2") format("woff2"), url("./styles/font/F37Ginger-LightItalic.ttf") format("truetype"), url("./styles/font/F37Ginger-LightItalic.svg#1c7eff18379a490689d240dabfae793f") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200;
 }
 @font-face {
   font-family: "F37 Ginger";
-  src: url("./font/F37Ginger-Regular.eot");
+  src: url("./styles/font/F37Ginger-Regular.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-Regular.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-Regular.woff") format("woff"), url("./font/F37Ginger-Regular.woff2") format("woff2"), url("./font/F37Ginger-Regular.ttf") format("truetype"), url("./font/F37Ginger-Regular.svg#cd0eb1181545a540be3acd13cd87c831") format("svg");
+  src: url("./styles/font/F37Ginger-Regular.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-Regular.woff") format("woff"), url("./styles/font/F37Ginger-Regular.woff2") format("woff2"), url("./styles/font/F37Ginger-Regular.ttf") format("truetype"), url("./styles/font/F37Ginger-Regular.svg#cd0eb1181545a540be3acd13cd87c831") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 400;
 }
 @font-face {
   font-family: "F37 Ginger Thin";
-  src: url("./font/F37Ginger-Thin.eot");
+  src: url("./styles/font/F37Ginger-Thin.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-Thin.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-Thin.woff") format("woff"), url("./font/F37Ginger-Thin.woff2") format("woff2"), url("./font/F37Ginger-Thin.ttf") format("truetype"), url("./font/F37Ginger-Thin.svg#f3e13b7d84e2887d1408955c128d7a0a") format("svg");
+  src: url("./styles/font/F37Ginger-Thin.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-Thin.woff") format("woff"), url("./styles/font/F37Ginger-Thin.woff2") format("woff2"), url("./styles/font/F37Ginger-Thin.ttf") format("truetype"), url("./styles/font/F37Ginger-Thin.svg#f3e13b7d84e2887d1408955c128d7a0a") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200;
 }
 @font-face {
   font-family: "F37 Ginger Thin";
-  src: url("./font/F37Ginger-ThinItalic.eot");
+  src: url("./styles/font/F37Ginger-ThinItalic.eot");
   /* IE9 Compat Modes */
-  src: url("./font/F37Ginger-ThinItalic.eot?#iefix") format("embedded-opentype"), url("./font/F37Ginger-ThinItalic.woff") format("woff"), url("./font/F37Ginger-ThinItalic.woff2") format("woff2"), url("./font/F37Ginger-ThinItalic.ttf") format("truetype"), url("./font/F37Ginger-ThinItalic.svg#337ef199cf72f1b39d8898efcdfd3ac9") format("svg");
+  src: url("./styles/font/F37Ginger-ThinItalic.eot?#iefix") format("embedded-opentype"), url("./styles/font/F37Ginger-ThinItalic.woff") format("woff"), url("./styles/font/F37Ginger-ThinItalic.woff2") format("woff2"), url("./styles/font/F37Ginger-ThinItalic.ttf") format("truetype"), url("./styles/font/F37Ginger-ThinItalic.svg#337ef199cf72f1b39d8898efcdfd3ac9") format("svg");
   /* Legacy iOS */
   font-style: normal;
   font-weight: 200;
@@ -239,7 +243,7 @@ p {
   width: 140px;
   height: 140px;
   top: 120px;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .exercFloat {
@@ -250,7 +254,7 @@ p {
   width: 140px;
   height: 140px;
   top: 250px;
-  animation-delay: 2s;
+  animation-delay: 5s;
 }
 
 .meanFloat {
@@ -260,7 +264,7 @@ p {
   height: 100px;
   top: 380px;
   margin-left: 80px;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .helpFloat {
@@ -270,7 +274,7 @@ p {
   height: 100px;
   top: 200px;
   margin-left: 320px;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .sleepFloat {
@@ -280,7 +284,7 @@ p {
   height: 120px;
   margin-left: 160px;
   top: 220px;
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 
 .socialFloat {
@@ -290,7 +294,7 @@ p {
   height: 100px;
   top: 340px;
   margin-left: 280px;
-  animation-delay: 5s;
+  animation-delay: 3s;
 }
 
 .lady {
@@ -325,7 +329,7 @@ p {
     width: 90px;
     height: 90px;
     top: 100px;
-    animation-delay: 2s;
+    animation-delay: 5s;
   }
 
   .exercFloat {
@@ -336,7 +340,7 @@ p {
     height: 90px;
     top: 320px;
     margin-left: -30px;
-    animation-delay: 2s;
+    animation-delay: 3s;
   }
 
   .meanFloat {
@@ -359,7 +363,7 @@ p {
     height: 90px;
     margin-left: 160px;
     top: 50px;
-    animation-delay: 5s;
+    animation-delay: 1s;
   }
 
   .socialFloat {
