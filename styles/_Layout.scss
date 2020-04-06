@@ -1,52 +1,48 @@
 @use 'Colour';
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font: 100% "F37 Ginger", sans-serif;
-    background-color:  Colour.$WHITE;
+    background-color: Colour.$WHITE;
     padding: 0;
     margin: 0;
     height: 100%;
     letter-spacing: 1px;
-
-}
-
-input {
-    background: Colour.$WHITE;
-    border-radius: 23px;
-    font-size: 12px;
-    padding: 20px 50px;
-    margin: 20px 0;
-    border: none;
-    width:80%;
-    font: 100% "F37 Ginger", sans-serif;
-    &:active,
-    &:focus {
-        outline: 0;
-    }
-        
-}
-
-.section {
-    width: 100%;
-    overflow: hidden;
-}
-
-.content {
-    max-width: 1280px;
-    margin: auto;
-    position: relative;
 }
 
 @media (max-width: 916px) {
     body {
         text-align: center;
     }
-    .content {
-        width: 100%;
-        // padding: 0 25px;
-        position: relative;
-        margin: auto;
-        display: block;
+}
+
+input {
+    background: Colour.$WHITE;
+    border-radius: 23px;
+    font-size: 12px;
+    padding: 20px 30px;
+    margin: 20px 0;
+    border: none;
+    width: 100%;
+    font: 100% "F37 Ginger", sans-serif;
+    &:active,
+    &:focus {
+        outline: 0;
     }
-    
+}
+
+.content {
+    max-width: 1152px;
+    margin: auto;
+    padding: 128px 16px;
+    position: relative;
+}
+
+@media (max-width: 916px) {
+    .content {
+        padding: 64px 16px;
+    }
 }
