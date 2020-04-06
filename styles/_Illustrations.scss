@@ -1,0 +1,174 @@
+.roof {
+    background: url('images/illustrations/roof.png')  center no-repeat;
+    background-size: contain;
+}
+
+.floatImage {
+    animation: float ease-in-out 6s alternate infinite;
+    background-size: contain;
+    position: absolute;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.stressFloat {
+    background:  url('images/illustrations/Headphones.gif'),url('images/icons/stressManagement.png');
+    background-size: contain;
+    width: 140px;
+    height: 140px;
+    top: 120px;
+    animation-delay: random(5)+s;
+}
+
+.exercFloat {
+    background: url('images/illustrations/Running.gif'),url('images/icons/exercise.png');
+    background-size: cover, 110px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 140px;
+    height: 140px;
+    top:250px;
+    animation-delay: random(5)+s;
+
+}
+
+.meanFloat {
+    background:  url('images/illustrations/Plant.gif'),url('images/icons/meaningfulActivity.png');
+    background-size: 96px;
+    width: 100px;
+    height: 100px;
+    top: 380px;
+    margin-left:80px;
+    animation-delay: random(5)+s;
+}
+
+.helpFloat {
+    background:  url('images/illustrations/Hands.gif'),url('images/icons/helpingOthers.png');
+    background-size: 96px;
+    width: 100px;
+    height: 100px;
+    top: 200px;
+    margin-left:320px;
+    animation-delay: random(5)+s;
+}
+
+.sleepFloat {
+    background:  url('images/illustrations/Bed.gif'),url('images/icons/sleep.png');
+    background-size: 120px;
+    width: 120px;
+    height: 120px;
+    margin-left:160px;
+    top: 220px;
+    animation-delay: random(5)+s;
+}
+
+.socialFloat {
+    background:  url('images/illustrations/Dancing.gif'),url('images/icons/socialConnections.png');
+    background-size: 96px;
+    width: 100px;
+    height: 100px;
+    top: 340px;
+    margin-left:280px;
+    animation-delay: random(5)+s;
+}
+
+.lady {
+    background: url('images/illustrations/Girl.png');
+    position: absolute;
+    bottom: 0;
+    background-size: contain;
+    width: 280px;
+    height: 280px;
+    margin-left:8%;
+    background-repeat: no-repeat;
+}
+
+.cat {
+    background: url('images/illustrations/Cat.gif');
+    background-size: contain;
+    width: 200px;
+    height: 200px;
+    bottom: 0;
+    margin-left: -280px;
+    position: absolute;
+    margin-bottom: -30px;
+    background-repeat: no-repeat;
+}
+@media (max-width: 916px) {
+    .floatImage {
+        opacity: 50%;
+    }
+    .stressFloat {
+        width: 90px;
+        height: 90px;
+        top: 100px;
+        animation-delay: random(5)+s;
+    }
+
+.exercFloat {
+    background-size: cover, 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    width: 90px;
+    height: 90px;
+    top:320px;
+    margin-left:-30px;
+    animation-delay: random(5)+s;
+
+}
+
+.meanFloat {
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    background-repeat: none;
+}
+
+.helpFloat {
+    background-size: 80px;
+    width: 80px;
+    height: 80px;
+    top: 100px;
+}
+
+.sleepFloat {
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
+    margin-left:160px;
+    top: 50px;
+    animation-delay: random(5)+s;
+}
+
+.socialFloat {
+    top: 380px;
+
+    background-size: 70px;
+    width: 70px;
+    height: 70px;
+    background-repeat: none;
+}
+
+.lady {
+    width: 150px;
+    height: 150px;
+    margin-left:40%;
+}
+
+.cat {
+    width: 100px;
+    height: 100px;
+    bottom: 0;
+    margin-left: 0;
+    position: absolute;
+    margin-bottom: -10px;
+}
+}
+
+
+@keyframes float {
+    0% { transform: translateY(0) }
+    100% { transform: translateY(20px) }
+}

@@ -1,0 +1,43 @@
+$BLUE: #2B2734;
+$BLUE_L: #7999AC;
+$GREY_D: #93918C;
+$GREY: #EEEAE8;
+$GREY_T: #EEEAE8CC;
+$BEIGE: #F9F7F5;
+$WHITE: #FFFFFF;
+
+$SLEEP: #E2AA28;
+$SLEEP_L: #EBD4AA;
+$SOCIAL: #A6D3F1;
+$SOCIAL_L: #C5E0F1;
+$EXERCISE: #629373;
+$EXERCISE_L: #C4D3C8;
+$HELPING: #9381AB;
+$HELPING_L: #BDBDD3;
+$STRESS: #D67656;
+$STRESS_L: #E9C8BD;
+$MEANINGFUL: #7C99AD;
+$MEANINGFUL_L: #CCD6DD;
+
+.SHADOW {
+    elevation: 5;
+    shadow-color: #000;
+    shadow-offset: {
+        width: 0;
+        height: 2;
+    }
+    shadow-opacity: 0.15;
+    shadow-radius: 2;
+}
+
+.SHADOWTAG {
+    elevation: 16;
+    shadow-color: #ddd;
+    shadow-offset: {
+        width: 0;
+        height: 9;
+    }
+    shadow-opacity: 0.48;
+    shadow-radius: 10;
+}
+
