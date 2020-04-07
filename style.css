@@ -250,17 +250,17 @@ p {
   width: 140px;
   height: 140px;
   top: 250px;
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
 
 .meanFloat {
   background: url("images/illustrations/Plant.gif"), url("images/icons/meaningfulActivity.png");
-  background-size: 96px;
+  background-size: contain;
   width: 100px;
   height: 100px;
   top: 380px;
   margin-left: 80px;
-  animation-delay: 5s;
+  animation-delay: 1s;
 }
 
 .helpFloat {
@@ -280,7 +280,7 @@ p {
   height: 120px;
   margin-left: 160px;
   top: 220px;
-  animation-delay: 2s;
+  animation-delay: 4s;
 }
 
 .socialFloat {
@@ -290,7 +290,7 @@ p {
   height: 100px;
   top: 340px;
   margin-left: 280px;
-  animation-delay: 5s;
+  animation-delay: 4s;
 }
 
 .lady {
@@ -325,7 +325,7 @@ p {
     width: 90px;
     height: 90px;
     top: 100px;
-    animation-delay: 5s;
+    animation-delay: 3s;
   }
 
   .exercFloat {
@@ -336,7 +336,7 @@ p {
     height: 90px;
     top: 320px;
     margin-left: -30px;
-    animation-delay: 2s;
+    animation-delay: 4s;
   }
 
   .meanFloat {
@@ -359,7 +359,7 @@ p {
     height: 90px;
     margin-left: 160px;
     top: 50px;
-    animation-delay: 1s;
+    animation-delay: 3s;
   }
 
   .socialFloat {
