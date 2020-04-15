@@ -102,69 +102,73 @@
     .stressFloat {
         width: 90px;
         height: 90px;
-        top: 100px;
+        top: 5%;
+        margin-left: 3%;
         animation-delay: random(5)+s;
     }
 
-.exercFloat {
-    background-size: cover, 70px;
-    background-repeat: no-repeat;
-    background-position: center;
+    .exercFloat {
+        background-size: cover, 70px;
+        background-repeat: no-repeat;
+        background-position: center;
 
-    width: 90px;
-    height: 90px;
-    top:320px;
-    margin-left:-30px;
-    animation-delay: random(5)+s;
+        width: 90px;
+        height: 90px;
+        top:60%px;
+        margin-left:-30px;
+        animation-delay: random(5)+s;
 
-}
+    }
 
-.meanFloat {
-    background-size: 70px;
-    width: 70px;
-    height: 70px;
-    background-repeat: no-repeat;
-}
+    .meanFloat {
+        background-size: 70px;
+        width: 70px;
+        height: 70px;
+        background-repeat: no-repeat;
+        top:70%;
+        margin-left: 25%;
+    }
 
-.helpFloat {
-    background-size: 80px;
-    width: 80px;
-    height: 80px;
-    top: 100px;
-}
+    .helpFloat {
+        background-size: 80px;
+        width: 80px;
+        height: 80px;
+        top: 20%;
+        margin-left: 80%;
+    }
 
-.sleepFloat {
-    background-size: 90px;
-    width: 90px;
-    height: 90px;
-    margin-left:160px;
-    top: 50px;
-    animation-delay: random(5)+s;
-}
+    .sleepFloat {
+        background-size: 90px;
+        width: 90px;
+        height: 90px;
+        margin-left:50%;
+        top: 5%;
+        animation-delay: random(5)+s;
+    }
 
-.socialFloat {
-    top: 380px;
+    .socialFloat {
+        top: 65%;
+        margin-left:60%;
+        background-size: 70px;
+        width: 70px;
+        height: 70px;
+        background-repeat: none;
+    }
 
-    background-size: 70px;
-    width: 70px;
-    height: 70px;
-    background-repeat: none;
-}
+    .lady {
+        width: 150px;
+        height: 150px;
+        margin-left:40%;
+    }
 
-.lady {
-    width: 150px;
-    height: 150px;
-    margin-left:40%;
-}
-
-.cat {
-    width: 100px;
-    height: 100px;
-    bottom: 0;
-    margin-left: 0;
-    position: absolute;
-    margin-bottom: -10px;
-}
+    .cat {
+        width: 100px;
+        height: 100px;
+        bottom: 0;
+        margin-left: 0;
+        position: absolute;
+        margin-bottom: -10px;
+    }
 }
 
 

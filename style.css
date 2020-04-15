@@ -27,6 +27,7 @@ body {
   margin: 0;
   height: 100%;
   letter-spacing: 1px;
+  overflow-x: hidden;
 }
 
 @media (max-width: 916px) {
@@ -239,7 +240,7 @@ p {
   width: 140px;
   height: 140px;
   top: 120px;
-  animation-delay: 2s;
+  animation-delay: 4s;
 }
 
 .exercFloat {
@@ -250,7 +251,7 @@ p {
   width: 140px;
   height: 140px;
   top: 250px;
-  animation-delay: 2s;
+  animation-delay: 1s;
 }
 
 .meanFloat {
@@ -260,7 +261,7 @@ p {
   height: 100px;
   top: 380px;
   margin-left: 80px;
-  animation-delay: 2s;
+  animation-delay: 3s;
 }
 
 .helpFloat {
@@ -280,7 +281,7 @@ p {
   height: 120px;
   margin-left: 160px;
   top: 220px;
-  animation-delay: 4s;
+  animation-delay: 5s;
 }
 
 .socialFloat {
@@ -290,7 +291,7 @@ p {
   height: 100px;
   top: 340px;
   margin-left: 280px;
-  animation-delay: 4s;
+  animation-delay: 1s;
 }
 
 .lady {
@@ -324,8 +325,9 @@ p {
   .stressFloat {
     width: 90px;
     height: 90px;
-    top: 100px;
-    animation-delay: 4s;
+    top: 5%;
+    margin-left: 3%;
+    animation-delay: 3s;
   }
 
   .exercFloat {
@@ -334,9 +336,9 @@ p {
     background-position: center;
     width: 90px;
     height: 90px;
-    top: 320px;
+    top: 60% px;
     margin-left: -30px;
-    animation-delay: 1s;
+    animation-delay: 3s;
   }
 
   .meanFloat {
@@ -344,26 +346,30 @@ p {
     width: 70px;
     height: 70px;
     background-repeat: no-repeat;
+    top: 70%;
+    margin-left: 25%;
   }
 
   .helpFloat {
     background-size: 80px;
     width: 80px;
     height: 80px;
-    top: 100px;
+    top: 20%;
+    margin-left: 80%;
   }
 
   .sleepFloat {
     background-size: 90px;
     width: 90px;
     height: 90px;
-    margin-left: 160px;
-    top: 50px;
-    animation-delay: 3s;
+    margin-left: 50%;
+    top: 5%;
+    animation-delay: 1s;
   }
 
   .socialFloat {
-    top: 380px;
+    top: 65%;
+    margin-left: 60%;
     background-size: 70px;
     width: 70px;
     height: 70px;
@@ -396,6 +402,7 @@ p {
 .header {
   background-color: #F9F7F5;
   height: 64px;
+  z-index: 1;
 }
 .header img {
   height: 64px;
@@ -414,6 +421,7 @@ p {
 
 .sec0 {
   background-color: #F9F7F5;
+  overflow: hidden;
 }
 .sec0 > .content {
   height: 760px;
@@ -450,7 +458,8 @@ p {
     background-color: #F9F7F5;
   }
   .sec0 > .content {
-    height: 600px;
+    height: 90vh;
+    min-height: 600px;
     display: block;
   }
   .sec0 > .content > div:nth-of-type(1) {
@@ -458,9 +467,11 @@ p {
     grid-row-end: 2;
     grid-column-start: 1;
     height: 150px;
-  }
-  .sec0 > .content > div:nth-of-type(2) h3 {
     display: none;
+  }
+  .sec0 > .content > div:nth-of-type(2) {
+    z-index: 10;
+    padding-top: 25%;
   }
   .sec0 > .content > div:nth-of-type(3) {
     grid-row-start: 3;
@@ -469,16 +480,18 @@ p {
     height: 100%;
   }
   .sec0 .downloadLinks {
-    flex-direction: column;
+    flex-direction: row;
     margin-top: 32px;
     position: relative;
     z-index: 2;
+    margin: auto;
+    display: block;
   }
   .sec0 .downloadLinks img {
-    height: auto;
+    margin-top: 16px;
     margin-bottom: 16px;
     margin-right: 0;
-    width: 164px;
+    height: 40px;
   }
 }
 .sec1 {
@@ -637,7 +650,7 @@ p {
     grid-column-start: 1;
     grid-row-start: 2;
     grid-row-end: 3;
-    width: 350px;
+    width: 95%;
     height: 350px;
     margin: auto;
     margin-top: 0;
@@ -695,7 +708,7 @@ p {
     grid-row-start: 2;
     grid-row-end: 3;
     background-size: contain;
-    width: 350px;
+    width: 95%;
     height: 300px;
     margin: auto;
     margin-top: 0;
@@ -741,8 +754,8 @@ p {
     grid-row-start: 2;
     grid-row-end: 3;
     background-size: contain;
-    width: 350px;
-    height: 300px;
+    width: 95%;
+    height: 350px;
     margin: auto;
     margin-top: 0;
   }
@@ -787,7 +800,7 @@ p {
     grid-row-start: 2;
     grid-row-end: 3;
     background-size: contain;
-    width: 400px;
+    width: 95%;
     height: 400px;
     margin: auto;
     margin-top: 0;
@@ -825,6 +838,7 @@ p {
   background: #2B2734;
   text-transform: uppercase;
   letter-spacing: 2px;
+  -webkit-appearance: none;
 }
 .sec7 > .gdprLegal {
   padding: 50px;
@@ -863,9 +877,25 @@ p {
     background: #2B2734;
     text-transform: uppercase;
     letter-spacing: 2px;
+    -webkit-appearance: none;
   }
   .sec7 > .gdprLegal {
     padding: 50px;
+  }
+}
+.downloadLinksBottom {
+  text-align: center;
+  margin: auto;
+  flex: 1;
+  padding-bottom: 50px;
+}
+.downloadLinksBottom img {
+  height: 60px;
+}
+
+@media (max-width: 916px) {
+  .downloadLinksBottom img {
+    height: 40px;
   }
 }
 .sec8 {
@@ -899,14 +929,14 @@ p {
     height: 40px;
   }
   .sec8 .footerDownload {
-    flex-direction: column;
-    margin-top: 32px;
+    flex-direction: row;
+    margin: auto;
+    flex: 1;
+    padding-bottom: 50px;
+    padding-top: 32px;
   }
   .sec8 .footerDownload img {
-    height: auto;
-    margin-bottom: 16px;
-    margin-left: 0;
-    width: 164px;
+    height: 40px;
   }
 }
 

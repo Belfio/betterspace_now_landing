@@ -6,6 +6,7 @@
 .header{
     background-color: Colour.$BEIGE;
     height: 64px;
+    z-index: 1;
     img{
         height: 64px;
         padding: 10px;
@@ -26,7 +27,7 @@
 
 .sec0 {
     background-color: Colour.$BEIGE;
-
+    overflow: hidden;
     > .content {
         height: 760px;
         display: grid;
@@ -69,7 +70,8 @@
         background-color: Colour.$BEIGE;
     
         > .content {
-            height: 600px;
+            height: 90vh;
+            min-height: 600px;
             display: block;
             // grid-template-rows: 35% 75%;
             // Roof
@@ -78,12 +80,16 @@
                 grid-row-end: 2;
                 grid-column-start: 1;
                 height: 150px;
+                display: none;
             }
             // Left Title
             > div:nth-of-type(2) {
+                z-index: 10;
+                padding-top:25%;
                 h3 {
-                    display: none;
+                    // display: none;
                 }
+
             }
     
             // Right Illustrations
@@ -97,16 +103,17 @@
         }
 
         .downloadLinks {
-            flex-direction: column;
+            flex-direction: row;
             margin-top: 32px;
             position: relative;
             z-index: 2;
-
+            margin: auto;   
+            display: block;
             img {
-                height: auto;
+                margin-top: 16px;
                 margin-bottom: 16px;
                 margin-right: 0;
-                width: 164px;
+                height: 40px;
             }
         }
     }
@@ -275,7 +282,7 @@
                 grid-column-start: 1;
                 grid-row-start: 2;
                 grid-row-end: 3; 
-                width: 350px;
+                width: 95%;
                 height: 350px;
                 margin: auto;
                 margin-top: 0;
@@ -341,7 +348,7 @@
                 grid-row-start: 2;
                 grid-row-end: 3; 
                 background-size: contain;
-                width: 350px;
+                width: 95%;
                 height: 300px;
                 margin: auto;
                 margin-top: 0;
@@ -392,8 +399,8 @@
                 grid-row-start: 2;
                 grid-row-end: 3; 
                 background-size: contain;
-                width: 350px;
-                height: 300px;
+                width: 95%;
+                height: 350px;
                 margin: auto;
                 margin-top: 0;
             }
@@ -445,7 +452,7 @@
                 grid-row-start: 2;
                 grid-row-end: 3; 
                 background-size: contain;
-                width: 400px;
+                width: 95%;
                 height: 400px;
                 margin: auto;
                 margin-top: 0;
@@ -485,6 +492,8 @@
                 background:Colour.$BLUE;
                 text-transform: uppercase;
                 letter-spacing: 2px;
+    -webkit-appearance: none;
+                
             }
         }
     }
@@ -525,7 +534,8 @@
                     background:Colour.$BLUE;
                     text-transform: uppercase;
                     letter-spacing: 2px;
-                }
+    -webkit-appearance: none;
+}
             }
         }
         >.gdprLegal{
@@ -534,6 +544,28 @@
     }
 
 }
+
+.downloadLinksBottom{
+    text-align: center;
+    margin:auto;
+    flex: 1;
+    padding-bottom: 50px;
+    img {
+        height: 60px;
+    }
+}
+
+
+@media (max-width: 916px) {
+    .downloadLinksBottom{
+
+        img {
+            height: 40px;
+        }
+    }
+    
+}
+
 
 .sec8 {
     color:Colour.$WHITE;
@@ -567,19 +599,28 @@
             height: 40px;
         }
         .footerDownload {
-            flex-direction: column;
-            margin-top: 32px;
+            flex-direction: row;
 
+            margin:auto;
+            flex: 1;
+            padding-bottom: 50px;
+            padding-top: 32px;
             img {
-                height: auto;
-                margin-bottom: 16px;
-                margin-left: 0;
-                width: 164px;
+                height: 40px;
             }
+
+            // img {
+            //     height: auto;
+            //     margin-bottom: 16px;
+            //     margin-left: 0;
+            //     width: 164px;
+            // }
         }
     }
 
 }
+
+
 
 // @media (min-width: $bp-tabl) {
 //     .sSectionContactHalf {
